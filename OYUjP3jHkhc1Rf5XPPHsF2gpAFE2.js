@@ -6,7 +6,7 @@ globalThis.cv = Object.assign(globalThis.cv || {}, {
       "profession": "Senior Software Engineer",
       "location": "Manchester UK",
       "pronouns": null,
-      "byline": "Senior Software Engineer in Manchester UK",
+      "byline": "Senior Software Engineer, Manchester UK",
       "website": "https://govindthedev.sh",
       "websiteURL": "https://govindthedev.sh",
       "about": null,
