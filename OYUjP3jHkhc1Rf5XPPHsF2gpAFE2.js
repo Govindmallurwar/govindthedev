@@ -6,14 +6,14 @@ globalThis.cv = Object.assign(globalThis.cv || {}, {
       "profession": "Senior Software Engineer",
       "location": "Manchester UK",
       "pronouns": null,
-      "byline": "Senior Software Engineer, Manchester UK",
-      "website": "https://govindthedev.sh",
-      "websiteURL": "https://govindthedev.sh",
+      "byline": "Senior Software Engineer in Manchester UK",
+      "website": "https://govindmalurwar.dev",
+      "websiteURL": "https://govindmalurwar.dev",
       "about": null,
       "status": {
         "text": "\n",
         "emoji": "🙃",
-        "timestamp": "2021-01-04T22:08:04.906Z"
+        "timestamp": "2025-01-06T22:08:04.906Z"
       }
     },
     "projects": [],
@@ -31,7 +31,7 @@ globalThis.cv = Object.assign(globalThis.cv || {}, {
       {
         "id": "3KhrZn2inhSNIz1LVxvq",
         "platform": "LinkedIn",
-        "handle": "sriganeshsureshkumar",
+        "handle": "govind-malurwar",
         "url": "https://www.linkedin.com/in/govind-malurwar/"
       },
       {
@@ -51,14 +51,14 @@ globalThis.cv = Object.assign(globalThis.cv || {}, {
           {
             "id": "3KhrZn2inhSNIz1LVxvq",
             "platform": "LinkedIn",
-            "handle": "sriganeshsureshkumar",
-            "url": "https://linkedin.com/in/sriganeshsureshkumar"
+            "handle": "govind-malurwar",
+            "url": "https://linkedin.com/in/govind-malurwar/"
           },
           {
             "id": "a9mcCX9vUMCOrCJtnmw3",
             "platform": "Open for: SWE roles",
             "handle": "linkedin",
-            "url": "https://linkedin.com/in/sriganeshsureshkumar"
+            "url": "https://linkedin.com/in/govind-malurwar/"
           }
         ]
       }
