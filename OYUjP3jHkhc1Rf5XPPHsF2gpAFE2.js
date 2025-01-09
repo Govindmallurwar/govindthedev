@@ -30,15 +30,15 @@ globalThis.cv = Object.assign(globalThis.cv || {}, {
     "contact": [
       {
         "id": "3KhrZn2inhSNIz1LVxvq",
-        "platform": "LinkedIn",
-        "handle": "govind-malurwar",
+       "platform": "Open for: SWE roles",
+        "handle": "linkedin",
         "url": "https://www.linkedin.com/in/govind-malurwar/"
       },
       {
         "id": "a9mcCX9vUMCOrCJtnmw3",
-        "platform": "Open for: SWE roles",
-        "handle": "linkedin",
-        "url": "https://www.linkedin.com/in/govind-malurwar/"
+        "platform": "Resume",
+        "handle": "resume",
+        "url": "https://file.notion.so/f/f/ec90403e-3bf0-4036-b034-4061c2264575/16791a4d-a978-481d-9650-f99aa4ab193e/CV_-_Govind_Malurwar.pdf?table=block&id=1763a906-8fc4-8030-a657-dca761c98c11&spaceId=ec90403e-3bf0-4036-b034-4061c2264575&expirationTimestamp=1736488800000&signature=o_5cCS6iIWVLq8PZMNb0fNUZMAUPcRRMi7KzugzkbSo&downloadName=CV+-+Govind+Malurwar.pdf"
       }
     ],
     "writingTab": {
@@ -50,15 +50,15 @@ globalThis.cv = Object.assign(globalThis.cv || {}, {
         "items": [
           {
             "id": "3KhrZn2inhSNIz1LVxvq",
-            "platform": "LinkedIn",
-            "handle": "govind-malurwar",
+             "platform": "Open for: SWE roles",
+            "handle": "linkedin",
             "url": "https://linkedin.com/in/govind-malurwar/"
           },
           {
             "id": "a9mcCX9vUMCOrCJtnmw3",
-            "platform": "Open for: SWE roles",
-            "handle": "linkedin",
-            "url": "https://linkedin.com/in/govind-malurwar/"
+            "platform": "Resume",
+            "handle": "resume",
+            "url": "https://file.notion.so/f/f/ec90403e-3bf0-4036-b034-4061c2264575/16791a4d-a978-481d-9650-f99aa4ab193e/CV_-_Govind_Malurwar.pdf?table=block&id=1763a906-8fc4-8030-a657-dca761c98c11&spaceId=ec90403e-3bf0-4036-b034-4061c2264575&expirationTimestamp=1736488800000&signature=o_5cCS6iIWVLq8PZMNb0fNUZMAUPcRRMi7KzugzkbSo&downloadName=CV+-+Govind+Malurwar.pdf"
           }
         ]
       }
