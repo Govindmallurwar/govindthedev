@@ -16,156 +16,156 @@
   
     
     
-  <script>
-class CVMediaObject {
-  constructor(props) {
-    this.url = props.url;
-    this.width = props.width;
-    this.height = props.height;
-  }
-
-  toString() { return this.url; }
-}
-
-var mediaFiles = {};
-mediaFiles[''] = new CVMediaObject({ url: '' });
-mediaFiles["og-image-1720636895617.png"] = new CVMediaObject({"url":"https://mywebsitedatagovindthedev.s3.us-east-1.amazonaws.com/picToLoad.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAVRUVTY6OIHBA4PHH%2F20250105%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250105T213301Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLWVhc3QtMSJGMEQCICIdwEEN78Va9CBINxd33%2FRovicyC6e8DoXfcEOmW9KOAiA3Jr5lNeOPH1ZRTwXWKzmbiCwl7h1fq0wUVMYXZXn0rSqBAwg3EAAaDDM4MTQ5MjExOTQ1MiIMi5fxqE2tov39J4tgKt4ClQR0YuH0DJyTADgwGZqEomB9Vdppbc9I0r5OANYkcHk355gPy9LoQQsSlH7qAK2mXntNXhlPZdeEFwkqYL41%2BTN%2FVaKIOGliJJCkTdBlcVDF3UUN3EKpSww3Rj1IHOt%2FTc9RzLRD6kWPCQAczSYHm3azAtAv1TsgOjDbEJ3Xcj7kfr%2B1FXfnKhxQ5IVLRjeLDBU3VV7MiSm7bjvywfKyJOlo1frELuzsLEkFgTRTe1R1txDNp5W9vTtzRwrHK0Ekj80cASkgqgshIKDVbaF5YjcsBLsNtfLtuuPf7omsI%2F4MAtwQFGQA5J4ezXd70wHQp4iaf8iAuGXGpgKVlQqw8ZNo23ElM98pQAWL2JuNbBECIUF8euYIxiJ%2FeyfwoOTzgqUFlpiHBxpx98e14cOuqu9IeN8%2FhnoqHjHTuL5tHsG962u27meWU1fFIUuPbzCXn4%2F5RdwGaGnlwdG%2BX3Awh7rruwY6tALIsL42jClZ0JxJiP41OvUtfRiCXK9aBWN2BsALuxqTgl1Q1FsFtz6xA0dMrA2GYtey0C5E90SL7PlPMGUfTRaep48KGA3OS1Ro641jCwsxKDoXwJNxArXGji9WxkxrEsBf1j9oiYERg5FUzko5fSYCg3PLKSTXXzQrmTylLeTSmoYV8CyIkysFcH69JuImXs95mkomxP49NTHlMVOIV8xYGqP%2F9M4D0BCF%2BnNul22eLT5wakxdwjkAKwiordgBx6ilAv1xq3U2WPKrlaEG5UM%2FpKx0XY1AbVT9ErUC54viTcMuKs106a4gxL%2BnfULLpWzL6IqS7Zn%2FbAKMKKOTb8s%2B0PgvXkFfe5W%2FmIMnM5WBm2xGZczB7%2BitCKaAPRWLEn6BlowTnMllE3PaNpSZuX6IW3xf3Q%3D%3D&X-Amz-Signature=e65dfbccf495bd503a7a36d1b3f6052bee4ca7d5dfc0596a998ee64a33713c43&X-Amz-SignedHeaders=host&response-content-disposition=inline","width":900,"height":630});
-
-globalThis.cv = Object.assign(globalThis.cv || {}, {
-  media: function (filename) {
-    return mediaFiles[filename] || mediaFiles[''];
-  },
-});
-  </script>
-  
-    
     <script>
-      globalThis.__cvRuntimeData = Object.assign(globalThis.__cvRuntimeData || {}, {"uid":"OYUjP3jHkhc1Rf5XPPHsF2gpAFE2"});
-    </script>
-    <script src="OYUjP3jHkhc1Rf5XPPHsF2gpAFE2.js" defer=""></script>
-    <script src='https://res.cloudinary.com/read-cv/raw/upload/v1/1/siteBuilder/OYUjP3jHkhc1Rf5XPPHsF2gpAFE2/site-bundle-1725995743232.js?_a=DATAdtfiZAA0' defer></script>
-    <link rel="stylesheet" type="text/css" href="https://res.cloudinary.com/read-cv/raw/upload/v1/1/siteBuilder/OYUjP3jHkhc1Rf5XPPHsF2gpAFE2/site-bundle-1725995743233.css?_a=DATAdtfiZAA0" />
-    <style>
-      :root {
-  --font-size: max(6vmax, 28.8px);
-  --padding: max(4vmax, 19.2px);
-  --backgroundColor: white;
-  --textColor: black;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --backgroundColor: black;
-    --textColor: white;
-  }
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body, html {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-body {
-  font-family: 'Inter Variable', sans-serif;
-  font-size: var(--font-size);
-  line-height: 1.1;
-  color: var(--textColor);
-  background-color: var(--backgroundColor);
-  -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: transparent;
-  text-size-adjust: none;
-  user-select: none;
-  position: relative;
-}
-
-.about {
-  padding: var(--padding);
-}
-
-.about h1 {
-  font-size: var(--font-size);
-  font-weight: 600;
-}
-
-.byline {
-  text-wrap: balance;
-  font-weight: 600;
-}
-
-.links {
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  display: flex;
-  flex-direction: row;
-  align-content: flex-end;
-  align-items: flex-end;
-  flex-wrap: wrap;
-}
-
-.link {
-  background-color: var(--textColor);
-  color: var(--backgroundColor);
-  border-radius: 100vw;
-  line-height: 1.6;
-  width: fit-content;
-  height: fit-content;
-  display: block;
-}
-
-body.dragging .link {
-  cursor: -webkit-grabbing;
-}
-
-body.dragging .link a {
-  pointer-events: none;
-}
-
-.link a {
-  color: inherit;
-  text-decoration: none;
-  padding: 0 var(--padding);
-  border: none;
-  outline: none;
-  display: block;
-  touch-action: manipulation !important;
-  cursor: pointer;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-.clock {
-  width: max(20dvmax, 96px);
-  aspect-ratio: 1/1;
-  box-shadow: 0 0 0 max(0.5dvmax, 1px) var(--textColor) inset;
-  border-radius: 50%;
-  background-color: var(--backgroundColor);
-  position: relative;
-  cursor: -webkit-grab;
-}
-
-.clock:active {
-  cursor: -webkit-grabbing;
-}
-
-.clockPiece {
-  position: absolute;
-  inset: max(0.5dvmax, 1px);
-}
-
-.clockPiece svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
+      class CVMediaObject {
+        constructor(props) {
+          this.url = props.url;
+          this.width = props.width;
+          this.height = props.height;
+        }
+      
+        toString() { return this.url; }
+      }
+      
+      var mediaFiles = {};
+      mediaFiles[''] = new CVMediaObject({ url: '' });
+mediaFiles["og-image-1720636895617.png"] = new CVMediaObject({"url":"https://mywebsitedatagovindthedev.s3.us-east-1.amazonaws.com/picToLoad.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAVRUVTY6OIHBA4PHH%2F20250105%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250105T213301Z&X-Amz-Expires=300&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEE4aCXVzLWVhc3QtMSJGMEQCICIdwEEN78Va9CBINxd33%2FRovicyC6e8DoXfcEOmW9KOAiA3Jr5lNeOPH1ZRTwXWKzmbiCwl7h1fq0wUVMYXZXn0rSqBAwg3EAAaDDM4MTQ5MjExOTQ1MiIMi5fxqE2tov39J4tgKt4ClQR0YuH0DJyTADgwGZqEomB9Vdppbc9I0r5OANYkcHk355gPy9LoQQsSlH7qAK2mXntNXhlPZdeEFwkqYL41%2BTN%2FVaKIOGliJJCkTdBlcVDF3UUN3EKpSww3Rj1IHOt%2FTc9RzLRD6kWPCQAczSYHm3azAtAv1TsgOjDbEJ3Xcj7kfr%2B1FXfnKhxQ5IVLRjeLDBU3VV7MiSm7bjvywfKyJOlo1frELuzsLEkFgTRTe1R1txDNp5W9vTtzRwrHK0Ekj80cASkgqgshIKDVbaF5YjcsBLsNtfLtuuPf7omsI%2F4MAtwQFGQA5J4ezXd70wHQp4iaf8iAuGXGpgKVlQqw8ZNo23ElM98pQAWL2JuNbBECIUF8euYIxiJ%2FeyfwoOTzgqUFlpiHBxpx98e14cOuqu9IeN8%2FhnoqHjHTuL5tHsG962u27meWU1fFIUuPbzCXn4%2F5RdwGaGnlwdG%2BX3Awh7rruwY6tALIsL42jClZ0JxJiP41OvUtfRiCXK9aBWN2BsALuxqTgl1Q1FsFtz6xA0dMrA2GYtey0C5E90SL7PlPMGUfTRaep48KGA3OS1Ro641jCwsxKDoXwJNxArXGji9WxkxrEsBf1j9oiYERg5FUzko5fSYCg3PLKSTXXzQrmTylLeTSmoYV8CyIkysFcH69JuImXs95mkomxP49NTHlMVOIV8xYGqP%2F9M4D0BCF%2BnNul22eLT5wakxdwjkAKwiordgBx6ilAv1xq3U2WPKrlaEG5UM%2FpKx0XY1AbVT9ErUC54viTcMuKs106a4gxL%2BnfULLpWzL6IqS7Zn%2FbAKMKKOTb8s%2B0PgvXkFfe5W%2FmIMnM5WBm2xGZczB7%2BitCKaAPRWLEn6BlowTnMllE3PaNpSZuX6IW3xf3Q%3D%3D&X-Amz-Signature=e65dfbccf495bd503a7a36d1b3f6052bee4ca7d5dfc0596a998ee64a33713c43&X-Amz-SignedHeaders=host&response-content-disposition=inline","width":900,"height":630});
+      
+      globalThis.cv = Object.assign(globalThis.cv || {}, {
+        media: function (filename) {
+          return mediaFiles[filename] || mediaFiles[''];
+        },
+      });
+        </script>
+        
+          
+        <script>
+      globalThis.__cvRuntimeData = Object.assign(globalThis.__cvRuntimeData || {}, {"uid":"aY76UrMx2INRS53ugwfU9sfaHrm1"});
+        </script>  
+          <script src='aY76UrMx2INRS53ugwfU9sfaHrm1.js' defer></script>
+          <script src='https://res.cloudinary.com/read-cv/raw/upload/v1/1/siteBuilder/aY76UrMx2INRS53ugwfU9sfaHrm1/site-bundle-1736506536509.js?_a=DATAdtfiZAA0' defer></script>
+          <link rel="stylesheet" type="text/css" href="https://res.cloudinary.com/read-cv/raw/upload/v1/1/siteBuilder/aY76UrMx2INRS53ugwfU9sfaHrm1/site-bundle-1736506536511.css?_a=DATAdtfiZAA0" />
+          <style>
+            :root {
+        --font-size: max(6vmax, 28.8px);
+        --padding: max(4vmax, 19.2px);
+        --backgroundColor: white;
+        --textColor: black;
+      }
+      
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --backgroundColor: black;
+          --textColor: white;
+        }
+      }
+      
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      body, html {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+      
+      body {
+        font-family: 'Inter Variable', sans-serif;
+        font-size: var(--font-size);
+        line-height: 1.1;
+        color: var(--textColor);
+        background-color: var(--backgroundColor);
+        -webkit-font-smoothing: antialiased;
+        -webkit-tap-highlight-color: transparent;
+        text-size-adjust: none;
+        user-select: none;
+        position: relative;
+      }
+      
+      .about {
+        padding: var(--padding);
+      }
+      
+      .about h1 {
+        font-size: var(--font-size);
+        font-weight: 600;
+      }
+      
+      .byline {
+        text-wrap: balance;
+        font-weight: 600;
+      }
+      
+      .links {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        align-items: flex-end;
+        flex-wrap: wrap;
+      }
+      
+      .link {
+        background-color: var(--textColor);
+        color: var(--backgroundColor);
+        border-radius: 100vw;
+        line-height: 1.6;
+        width: fit-content;
+        height: fit-content;
+        display: block;
+      }
+      
+      body.dragging .link {
+        cursor: -webkit-grabbing;
+      }
+      
+      body.dragging .link a {
+        pointer-events: none;
+      }
+      
+      .link a {
+        color: inherit;
+        text-decoration: none;
+        padding: 0 var(--padding);
+        border: none;
+        outline: none;
+        display: block;
+        touch-action: manipulation !important;
+        cursor: pointer;
+        font-weight: 600;
+        white-space: nowrap;
+      }
+      
+      .clock {
+        width: max(20dvmax, 96px);
+        aspect-ratio: 1/1;
+        box-shadow: 0 0 0 max(0.5dvmax, 1px) var(--textColor) inset;
+        border-radius: 50%;
+        background-color: var(--backgroundColor);
+        position: relative;
+        cursor: -webkit-grab;
+      }
+      
+      .clock:active {
+        cursor: -webkit-grabbing;
+      }
+      
+      .clockPiece {
+        position: absolute;
+        inset: max(0.5dvmax, 1px);
+      }
+      
+      .clockPiece svg {
+        width: 100%;
+        height: 100%;
+        display: block;
+      }
 
     </style>
   </head>
