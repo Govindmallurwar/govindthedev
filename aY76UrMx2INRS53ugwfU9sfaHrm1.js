@@ -38,7 +38,7 @@ globalThis.cv = Object.assign(globalThis.cv || {}, {
         "id": "a9mcCX9vUMCOrCJtnmw3",
         "platform": "Resume",
         "handle": "resume",
-        "url": "https://govindmalurwar.dev/CV%20-%20Govind%20Malurwar.pdf"
+        "url": "https://govindmalurwar.dev/CV_Govind-Malurwar.pdf"
       }
     ],
     "writingTab": {
